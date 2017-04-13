@@ -12,3 +12,6 @@ cd $build_dir
 yarn global add gulp
 npm link gulp
 
+# Install bower globally
+yarn global add bower
+npm link bower
