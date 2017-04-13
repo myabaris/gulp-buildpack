@@ -2,5 +2,13 @@
 
 set -e
 
+build_dir=$1
+cache_dir=$2
+env_dir=$3
+
+cd $build_dir
+
 # Install gulp globally
 yarn global add gulp
+npm link gulp
+
