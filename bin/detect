@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# This buildpack is always active
+echo "Gulp"
+exit 0
+
